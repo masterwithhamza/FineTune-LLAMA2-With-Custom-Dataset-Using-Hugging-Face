@@ -21,6 +21,8 @@ This code provides a detailed example of fine-tuning a LLaMA model using Hugging
 
 ## Project Highlights :
 
+Installs necessary libraries for model training and handling, including transformers for model management, peft for parameter-efficient fine-tuning, bitsandbytes for quantization, and trl for training utilities.
+
 ## SS1
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p1.png?raw=true)
 
