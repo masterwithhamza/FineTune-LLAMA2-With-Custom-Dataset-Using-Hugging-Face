@@ -3,7 +3,19 @@
 
 
 This code provides a detailed example of fine-tuning a LLaMA model using Hugging Face libraries. It starts by installing necessary packages like transformers, peft, and bitsandbytes, which facilitate model loading, quantization, and efficient parameter tuning. The script then defines various configurations, such as the model name, dataset, training parameters, and LoRA settings, to customize the training process. It loads a pre-trained model and tokenizer from the Hugging Face Hub, configures them for 4-bit quantization, and sets up a SFTTrainer for supervised fine-tuning using a specified dataset. After training, the model is saved and tested with a text generation pipeline to evaluate its performance. Finally, the fine-tuned model and tokenizer are pushed to the Hugging Face Hub for sharing and further use.
+#
 
+1. Install Libraries: Ensure you have the necessary libraries installed.
+2. Import Libraries: Import required modules for handling models, datasets, and training.
+3. Define Configuration: Set parameters for model, dataset, training, and quantization.
+4. Load Dataset: Load the training dataset.
+5. Configure Model: Set up the model with quantization and LoRA settings.
+6. Train Model: Initialize and run training using SFTTrainer.
+7. Save Model: Save the trained model locally.
+8. Generate Text: Test the model with a text generation pipeline.
+9. Cleanup: Free up resources.
+10. Reload Model: Reload and merge the fine-tuned model.
+11. Push to Hub: Push the fine-tuned model and tokenizer to the Hugging Face Hub.
 
 
 
@@ -21,7 +33,7 @@ This code provides a detailed example of fine-tuning a LLaMA model using Hugging
 
 ## Project Highlights :
 
-Installs necessary libraries for model training and handling, including transformers for model management, peft for parameter-efficient fine-tuning, bitsandbytes for quantization, and trl for training utilities.
+
 
 ## SS1
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p1.png?raw=true)
@@ -29,13 +41,13 @@ Installs necessary libraries for model training and handling, including transfor
 
 # 
 # 
-Imports libraries for model loading, dataset handling, training configuration, and logging.
+
 ## SS2
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p2.png?raw=true)
 
 # 
 # 
-Sets up various parameters for training, including model configurations, dataset names, quantization settings, and training hyperparameters.
+
 ## SS3
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p3.png?raw=true)
 
@@ -47,7 +59,7 @@ Sets up various parameters for training, including model configurations, dataset
 
 # 
 # 
-Ensures the datasets library is installed to load the dataset. Loads the training dataset from the Hugging Face Hub.Configures quantization settings for the model, loads the pre-trained base model and tokenizer, and sets up the model for fine-tuning. Sets up the LoRA (Low-Rank Adaptation) configuration, which is used for efficient fine-tuning by modifying only certain parts of the model.
+
 
 ## SS5
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p5.png?raw=true)
