@@ -47,6 +47,8 @@ Sets up various parameters for training, including model configurations, dataset
 
 # 
 # 
+Ensures the datasets library is installed to load the dataset. Loads the training dataset from the Hugging Face Hub.Configures quantization settings for the model, loads the pre-trained base model and tokenizer, and sets up the model for fine-tuning. Sets up the LoRA (Low-Rank Adaptation) configuration, which is used for efficient fine-tuning by modifying only certain parts of the model.
+
 ## SS5
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p5.png?raw=true)
 
