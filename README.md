@@ -29,11 +29,13 @@ Installs necessary libraries for model training and handling, including transfor
 
 # 
 # 
+Imports libraries for model loading, dataset handling, training configuration, and logging.
 ## SS2
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p2.png?raw=true)
 
 # 
 # 
+Sets up various parameters for training, including model configurations, dataset names, quantization settings, and training hyperparameters.
 ## SS3
 ![App Screenshot](https://github.com/masterwithhamza/FineTune-LLAMA2-With-Custom-Dataset-Using-LoRA-Techniqus/blob/main/ScreenShorts/p3.png?raw=true)
 
